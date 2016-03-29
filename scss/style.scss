@@ -1,0 +1,143 @@
+html, body {
+   height: 100%;
+   background-color: #ddd;
+}
+
+#pinContainer {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+.panel {  
+}
+
+nav {
+   display: none;
+   
+   top: 10vh;
+   left: 5vh;
+   text-align: center;
+   z-index: 3;
+   color: #999;
+   position: fixed;
+   li {
+      font-weight: bold;
+      background-color: #48b;
+      list-style-type: none;
+      border: 0.5px solid #333;
+      border-radius: 50px;
+      margin-bottom: 3px;
+      &:hover, &:visited {
+         background-color: #999;
+      }
+      a {
+         color: #333;
+         text-decoration: none;
+         &:active, &:visited {
+            text-decoration: none;
+            background-color: #bbb;
+            color: #333;
+         }
+         &:hover {
+            text-decoration: none;
+            color: #333;
+         }
+      }
+   }
+}
+
+.panel {
+   &-title {
+      font-size: 12vh;
+      text-indent: 20vw;
+      padding-top: 40vh;
+   }
+   &-number {
+      position: absolute;
+      text-indent: 3vw;
+      font-size: 70vh;
+      opacity: 0.5;
+   }
+   &-end {
+      text-align: center;
+      opacity: 0.5;
+      font-size: 10vh;
+   }
+   height: 100%;
+   width: 100%;
+   position: absolute;   
+   // margin: 0;
+   // height: auto !important;
+   // min-height: 100%;
+   // width: 100%;
+}
+
+#s {
+   &0 {
+      color: #5bf;
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/ijw14/502014127/ijw14_id-502014127.art/502014127_univ_lsr_lg.jpg) no-repeat center center fixed;
+      background-size: cover;      
+   }
+   &1 {
+      color: #eee;
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/my/my_E/1101978085_univ_lsr_md.jpg) no-repeat center center fixed;
+      background-size: cover;
+   }
+   &2 {
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/ijw14/502014154/ijw14_id-502014154.art/502014154_univ_lsr_lg.jpg) no-repeat center center fixed;
+      background-size: cover;   
+      background-color: #BF13BF;
+      color: #555;
+      .section-title {
+         color: #999;
+      }
+   }
+   &3 {
+      background: url(http://wol.jw.org/en/wol/mp/r1/lp-e/my/2004/234) no-repeat center center fixed;
+      background-size: cover;  
+      background-color: #0A6558;
+   }
+   &4 {
+      background: url(http://m.wol.jw.org/en/wol/mp/r1/lp-e/my/2004/236) no-repeat center center fixed;
+      background-size: cover;      
+      background-color: #F23030;
+   }
+   &5 {
+      background: url(http://wol.jw.org/en/wol/mp/r1/lp-e/my/2004/238) no-repeat center center fixed;
+      background-size: cover;   
+      background-color: #FF33FF;
+   }
+   &6 {
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/bm/bm.art/1102009456_univ_lsr_lg.jpg) no-repeat center center fixed;
+      background-size: cover;  
+      background-color: #F47A7A;
+   }
+   &7 {
+      background: url(http://wol.jw.org/en/wol/mp/r1/lp-e/jd/2006/36) no-repeat center center fixed;
+      background-size: cover;  
+      background-color: #7CF9A0;
+   }
+   &8 {
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/g14/201409/g14_201409_E/102014328_univ_lsr_md.jpg) no-repeat center center fixed;
+      background-size: cover;  
+      background-color: #10A58F;
+      color: #ccc;
+   }
+   &9 {
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/g14/201403/g14_201403.art/102014083_univ_lsr_lg.jpg) no-repeat center center fixed;
+      background-size: cover;  
+      background-color: #DD63A0;
+      color: #ccc;
+   }
+   &10 {
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/ws14/20140415/ws14_20140415.art/402014283_univ_lsr_xl.jpg) no-repeat center center fixed;
+      background-size: cover;   
+      color: #485359;
+   }
+   &11 {
+      background: url(https://assetsnffrgf-a.akamaihd.net/assets/m/ijw14/502014325/ijw14_id-502014325.art/502014325_univ_lsr_lg.jpg) no-repeat center center fixed;
+      background-size: cover;
+   }
+}
+/**
+**/
